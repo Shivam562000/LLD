@@ -128,6 +128,7 @@ public class CarRentalSystem {
     public closeRental(Rental rentalDetail, LocalDate returnDate)
     {
         rentalDetail.completeRental(returnDate);
+        
     }
 
 
